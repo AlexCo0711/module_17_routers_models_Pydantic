@@ -1,6 +1,7 @@
 from pydantic import BaseModel
 
-
+# Создание 4 схем в модуле, наследуемые от BaseModel,
+# для удобной работы с будущими объектами БД
 class CreateUser(BaseModel):
     username: str
     firstname: str
