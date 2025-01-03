@@ -1,7 +1,9 @@
 from fastapi import APIRouter
 
+# APIRouter с префиксом '/task' и тегом 'task',
 router = APIRouter(prefix='/task', tags=['task'])
 
+# 5 маршрутов c функциями all_task, task_by_id, create_task, update_task, delete_task
 @router.get('/')
 async def all_task():
     pass
