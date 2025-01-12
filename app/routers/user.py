@@ -20,6 +20,6 @@ async def create_user():
 async def update_user():
     pass
 
-@router.delete('/')
+@router.delete('/delete')
 async def delete_user():
     pass
